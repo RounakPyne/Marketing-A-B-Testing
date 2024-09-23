@@ -30,7 +30,7 @@ The analysis answers the following key business questions:
 
 ```bash
 ├── data
-│   ├── marketing_AB.csv               # Original dataset (not included in repository)
+│   ├── marketing_AB.csv               # Original dataset (included in repository)
 │   └── processed_data.csv             # Cleaned and processed data used for analysis
 ├── notebooks
 │   ├── 01_data_exploration.ipynb      # Initial data exploration and visualization
