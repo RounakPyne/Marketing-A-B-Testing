@@ -24,26 +24,6 @@ The analysis answers the following key business questions:
 8. [License](#license)
 9. [Contact](#contact)
 
----
-
-## **Project Structure**
-
-```bash
-├── data
-│   ├── marketing_AB.csv               # Original dataset (included in repository)
-│   └── processed_data.csv             # Cleaned and processed data used for analysis
-├── notebooks
-│   ├── 01_data_exploration.ipynb      # Initial data exploration and visualization
-│   ├── 02_AB_testing_analysis.ipynb   # A/B testing and statistical analysis
-├── scripts
-│   ├── data_cleaning.py               # Script for cleaning and preprocessing data
-│   └── visualization.py               # Script for generating charts and graphs
-├── reports
-│   ├── AB_test_analysis_report.pdf    # Final analysis report (PDF)
-├── README.md                          # This README file
-└── requirements.txt                   # Required dependencies
-```
-
 ## **Dataset Information**
 
 The dataset contains information about users exposed to an A/B marketing campaign, where some users viewed advertisements and others saw public service announcements.
@@ -73,12 +53,6 @@ To run the analysis locally, ensure that the following dependencies are installe
    - `matplotlib`
    - `seaborn`
    - `scipy`
-
-Install the dependencies using the following command:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## **Analysis Steps**
 
@@ -150,5 +124,3 @@ For any questions, feel free to reach out:
 - **Email**: rounakpyne.official@gamil.com
 
 ---
-
-This README provides a professional, clean overview suitable for Big 4 standards, focusing on detailed documentation, methodology, and clarity of presentation.
